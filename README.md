@@ -35,7 +35,7 @@ This application is packaged with Docker, which manages and maintains a consiste
 
 On a Debian-derived Linux distributions, run `./build.sh` in the project root directory to perform all the installation steps automatically. On other OSs, [install Docker](https://docs.docker.com/mac/) and [Docker Compose](https://docs.docker.com/compose/install/) manually.
 
-To start the application, run `docker-compose up`.
+To start the application, run `docker-compose up`. After starting, the website is accessible via `https://127.0.0.1:8000/` (for development mode, it is HTTPS only).
 
 Quick troubleshooting guide:
 
